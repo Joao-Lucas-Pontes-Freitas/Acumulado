@@ -1,0 +1,3 @@
+D:/UFU/Períodos/5° Período/Análise de Algoritmos/Trabalho Divide And Conquer C - Copia/cmake-build-debug/CMakeFiles/Trabalho_Divide_And_Conquer_C___Copia.dir
+D:/UFU/Períodos/5° Período/Análise de Algoritmos/Trabalho Divide And Conquer C - Copia/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/UFU/Períodos/5° Período/Análise de Algoritmos/Trabalho Divide And Conquer C - Copia/cmake-build-debug/CMakeFiles/rebuild_cache.dir

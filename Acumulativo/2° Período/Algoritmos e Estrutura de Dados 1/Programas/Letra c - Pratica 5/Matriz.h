@@ -1,0 +1,11 @@
+typedef struct matriz Matriz;
+Matriz *criar(int l, int c);
+void mostrar(Matriz *mat);
+void inserir(Matriz *mat, int l, int c);
+void remover(Matriz *mat, int l, int c);
+void membro(Matriz *mat, int l, int c);
+void colunas(Matriz *mat);
+void linhas(Matriz *mat);
+Matriz *preencher(Matriz *mat, float a, float b);
+void somar(Matriz *mat1, Matriz *mat2);
+void destruir(Matriz *mat);

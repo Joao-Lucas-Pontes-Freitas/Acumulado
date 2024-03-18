@@ -1,0 +1,37 @@
+.data
+    str1: .asciiz "Digite um numero 0 <= x <= 10: "
+    str2: .asciiz "VERDADEIRO"
+    str3: .asciiz "FALSO"
+.text
+
+        #le o primeiro inteiro
+        li 	$v0, 4
+        la 	$a0, str1
+        syscall
+        li 	$v0, 5
+        syscall
+        move 	$t0, $v0
+
+	#menor que 0
+	slti	$t7, $t0, 0
+	bne	$t7, $0, N2
+	
+	#menor que 11
+	slti	$t7, $t0, 11
+	bne	$t7, $0, EH2
+        
+N2:     #imprime falso
+        addi     $v0, $0, 4
+        la     $a0, str3
+        syscall
+        j SAI
+
+EH2:    #imprime verdadeiro
+        li 	$v0, 4
+        la 	$a0, str2
+        syscall
+
+SAI: 
+ 	#return 0
+        addi $v0, $0, 10
+        syscall 

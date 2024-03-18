@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <title>Realizar Pedido</title>
+    <link rel="stylesheet" href="realizar_pedido.css">
+</head>
+
+<body>
+
+    </div>
+    <div class="cabecalho" style="display: inline-flex;">
+        <div class="itens_cabecalho">
+            <div class="item"><a href="menu.html"> Pizzaria MamaMia </a></div>
+        </div>
+    </div>
+    <div class="main_content">
+        
+        <br>
+        <form method="post" enctype="application/x-www-form-urlencoded" action="http://localhost:8000/processa_pedido">
+            <p><label>Nome do Cliente: <input name="nomeCliente"></label></p>
+            <p><label>Telefone: <input type=tel name="telCliente"></label></p>
+            <p><label>E-mail: <input type=email name="emailCliente"></label></p>
+            <fieldset>
+                <legend> Tamanho da Pizza </legend>
+                <p><label> <input type=radio name="tamanho" value="p"> Pequena </label></p>
+                <p><label> <input type=radio name="tamanho" value="m"> Média </label></p>
+                <p><label> <input type=radio name="tamanho" value="g"> Grande </label></p>
+            </fieldset>
+            <fieldset>
+                <legend> Ingrediente</legend>
+                <p><label> <input type=checkbox name="ing" value="tom"> Tomate </label></p>
+                <p><label> <input type=checkbox name="ing" value="pre"> Presunto</label></p>
+                <p><label> <input type=checkbox name="ing" value="ceb"> cebola </label></p>
+                <p><label> <input type=checkbox name="ing" value="que"> Queijo </label></p>
+            </fieldset>
+            <p><label>Horário de entrega desejado: <input type=time min="11:00" max="21:00" step="900"
+                        name="tempo"></label>
+            </p>
+            <p><label>Instruções para entrega: <textarea name="obs"></textarea></label></p>
+            <p><button class="botao2">
+                    <h2 class="tamanho"
+                        style="color: #28282d; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+                        Realizar Pedido </h2>
+                    </a>
+                </button></p>
+        </form>
+        <br><br><br><br>
+    </div>
+
+</body>
+
+</html>

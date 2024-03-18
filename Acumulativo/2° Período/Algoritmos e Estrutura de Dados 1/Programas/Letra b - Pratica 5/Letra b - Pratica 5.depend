@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1668271811 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\letra b - pratica 5\conjunto1.c
+	"Conjunto.h"
+	<stdio.h>
+	<stdlib.h>
+
+1668271799 d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\letra b - pratica 5\conjunto.h
+
+1668271859 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\letra b - pratica 5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Conjunto.h"
+

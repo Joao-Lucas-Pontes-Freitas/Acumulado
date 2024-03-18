@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1669504707 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pratica 7\pratica 7 - listaencadeada\listaenc.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1669504707 d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pratica 7\pratica 7 - listaencadeada\lista.h
+

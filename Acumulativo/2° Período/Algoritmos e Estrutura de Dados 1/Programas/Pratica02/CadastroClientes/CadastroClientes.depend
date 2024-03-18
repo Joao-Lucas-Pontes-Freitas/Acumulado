@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1666012437 source:d:\codigos\pratica02\cadastroclientes\main.c
+	<stdio.h>
+	<stdlib.h>
+

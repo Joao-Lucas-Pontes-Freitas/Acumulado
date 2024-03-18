@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1673306131 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pratica 11\consultorio\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"Fila.h"
+	<string.h>
+
+1673306131 d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pratica 11\consultorio\fila.h
+
+1673306396 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pratica 11\consultorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Fila.h"
+

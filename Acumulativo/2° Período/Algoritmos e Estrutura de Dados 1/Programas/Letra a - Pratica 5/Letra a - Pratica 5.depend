@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1668271093 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\letra a - pratica 5\string1.c
+	"String.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1668271097 d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\letra a - pratica 5\string.h
+
+1668271221 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\letra a - pratica 5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"String.h"
+

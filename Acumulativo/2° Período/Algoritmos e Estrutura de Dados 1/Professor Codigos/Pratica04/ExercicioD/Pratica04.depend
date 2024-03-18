@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1668994472 source:d:\codigos\pratica04\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+	"string.h"
+
+1668994556 d:\codigos\pratica04\lista.h
+
+1668994928 source:d:\codigos\pratica04\listasequencialimp.c
+	"Lista.h"
+	<stdio.h>
+	<stdlib.h>
+
+1668994472 source:d:\onedrive - ufu.br\ufu\disciplinas\aed1\codigos\pratica04\exerciciod\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+	"string.h"
+
+1668994556 d:\onedrive - ufu.br\ufu\disciplinas\aed1\codigos\pratica04\exerciciod\lista.h
+

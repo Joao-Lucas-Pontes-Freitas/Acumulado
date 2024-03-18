@@ -1,0 +1,25 @@
+typedef struct no* Lista;
+
+Lista *criar();
+void limpar(Lista *l);
+int inserirInicio(Lista *l, int it);
+int inserirFim(Lista *l, int it);
+int inserirPosicao(Lista *l, int it, int pos);
+int removerInicio(Lista *l);
+int removerFim(Lista *l);
+int removerPosicao(Lista *l, int pos);
+int removerItem(Lista *l, int it);
+int buscarItemChave(Lista *l, int chave, int *retorno);
+int buscarPosicao(Lista *l, int posicao, int *retorno);
+int listaVazia(Lista *l);
+int listaCheia(Lista *l);
+int tamanho(Lista *l);
+void mostrar(Lista *l);
+int ContemItem(Lista *l, int it);
+Lista *Concatena(Lista *l1, Lista *l2);
+int MaiorNota(Lista *l);
+int RemoverNos(Lista *l, int n);
+int Comparar(Lista *l1, Lista *l2);
+int Somar(Lista *l);
+int Reverso(Lista *l);
+int RemoverTodos(Lista *l, int it);

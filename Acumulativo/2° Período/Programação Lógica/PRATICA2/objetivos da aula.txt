@@ -1,0 +1,77 @@
+1a) ?-visita(maria,_).
+	=False.	
+    ->Maria não está visitando alguém.
+
+1b) ?-visita(_,maria). 
+	=True.
+    ->Maria está sendo visitada por alguém.
+
+1c) acompanhada(X):-
+    	visita(_,X).
+
+    ?-acompanhada(maria).
+	=True.
+    ->Maria está acompanhada.
+
+1d) inconsistente:-
+    	emCasa(X),visita(X,_).
+
+    ?-inconsistente.
+	=False.
+    ->Não há alguém em casa e visitando alguém simultaneamente.
+
+1e) em_casa_de(X,Y):-
+    	visita(X,Y).
+	
+    em_casa_de(X,Y):-
+    	visita(X,Z), em_casa_de(Z,Y).
+
+    ?-em_casa_de(X,Y).
+	(devolve uma lista bem grande).
+	
+
+1f) contato(X,Y):-
+    	telefone(X,Y).
+    
+    ?-contato(maria,Y).
+	=123.
+    ->Maria pode ser acessada por 123.
+
+1g) festeiro(X):-
+    	visita(_,Y),visita(Y,X).
+    ?-festeiro(X).
+    	=maria.  
+    ->Maria está dando uma festa, i.e tem 3 pessoas ou mais em sua casa.
+
+2) 
+equiv(true,true).
+equiv(false,false).
+
+impl(X,Y):-
+    equiv(X,Y).
+impl(X,_):-
+	equiv(X,false).
+
+ou(X,Y):-
+    equiv(X,true) ; equiv(Y,true).
+
+e(X,Y):-
+	equiv(X,true),equiv(Y,true).
+
+nao(X):-
+	equiv(X,false).
+
+prova(equiv(X,Y)):-
+    equiv(X,Y).
+
+prova(impl(X,Y)):-
+    impl(X,Y).
+
+prova(ou(X,Y)):-
+    ou(X,Y).
+
+prova(e(X,Y)):-
+    e(X,Y).
+
+prova(nao(X)):-
+	nao(X).

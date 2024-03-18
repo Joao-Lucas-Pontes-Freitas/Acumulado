@@ -1,0 +1,3 @@
+:- dynamic pedido/7.
+
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1673923059 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pilha estatica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Pilha.h"
+
+1673923001 d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pilha estatica\pilha.h
+
+1673922849 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pilha estatica\pilha.c
+	<stdio.h>
+	<stdlib.h>
+	"Pilha.h"
+	<string.h>
+

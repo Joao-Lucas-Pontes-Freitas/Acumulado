@@ -1,0 +1,38 @@
+/*
+TEM COISA ERRADA AQUI AINDA:
+1-por algum motivo os ?-ou(true,false) retornam true e depois false.
+2-por algum motivo os ?-equiv(equiv(true,true),true). retornam false e por consequencia a prova disso tb.
+ate onde eu vi só isso.
+*/
+
+equiv(true,true).
+equiv(false,false).
+
+impl(X,Y):-
+    equiv(X,Y).
+impl(X,_):-
+	equiv(X,false).
+
+ou(X,Y):-
+    equiv(X,true) ; equiv(Y,true).
+
+e(X,Y):-
+	equiv(X,true),equiv(Y,true).
+
+nao(X):-
+	equiv(X,false).
+
+prova(equiv(X,Y)):-
+    equiv(X,Y).
+
+prova(impl(X,Y)):-
+    impl(X,Y).
+
+prova(ou(X,Y)):-
+    ou(X,Y).
+
+prova(e(X,Y)):-
+    e(X,Y).
+
+prova(nao(X)):-
+	nao(X).

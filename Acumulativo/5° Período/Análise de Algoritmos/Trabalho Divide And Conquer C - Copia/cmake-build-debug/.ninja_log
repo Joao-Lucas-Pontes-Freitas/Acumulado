@@ -1,0 +1,8 @@
+# ninja log v5
+5	115	7301571283641207	CMakeFiles/Trabalho_Divide_And_Conquer_C___Copia.dir/main.c.obj	e7d3b2c2e554d3e4
+3	276	7301571679621560	build.ninja	93ed4098350c3476
+5	103	7301568732231757	CMakeFiles/Trabalho_Divide_And_Conquer_C___Copia.dir/brutalForce.c.obj	af5874a45e198512
+19	133	7301568732527307	CMakeFiles/Trabalho_Divide_And_Conquer_C___Copia.dir/qSort.c.obj	29a9271e6fbcf400
+12	186	7301568040072208	CMakeFiles/Trabalho_Divide_And_Conquer_C___Copia.dir/auxiliares.c.obj	bb05b310d3cd4ed0
+12	125	7301568732442095	CMakeFiles/Trabalho_Divide_And_Conquer_C___Copia.dir/divideConquer.c.obj	974b702be3b037b4
+116	282	7301571285262848	Trabalho_Divide_And_Conquer_C___Copia.exe	9a95b4906b153d

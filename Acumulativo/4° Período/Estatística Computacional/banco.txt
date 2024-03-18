@@ -1,0 +1,4 @@
+data, temp
+hj  , 34
+ontem, 33
+amanha, 35

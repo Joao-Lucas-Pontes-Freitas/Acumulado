@@ -1,0 +1,10 @@
+int *criar(int t);
+void pos_membro(int *c, int p);
+int membro(int *c, int a, int t);
+void inserir(int *c, int *t);
+void remover(int *c, int *t);
+void uniao(int *c1, int *c2, int t1, int t2);
+void inter(int *c1, int *c2, int t1, int t2);
+void difer(int *c1, int *c2, int t1, int t2);
+void mostrar(int *c, int t);
+void destruir(int *c);

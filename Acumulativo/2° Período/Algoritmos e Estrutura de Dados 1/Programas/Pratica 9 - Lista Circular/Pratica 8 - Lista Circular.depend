@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1670850011 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pratica 8 - lista circular\listacircular.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1670849858 d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pratica 8 - lista circular\lista.h
+
+1670850145 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pratica 8 - lista circular\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+

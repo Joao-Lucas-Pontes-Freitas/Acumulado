@@ -1,0 +1,147 @@
+body {
+    background-image: url("imagens/Pizza\ de\ Calabresa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+}
+
+.cabecalho {
+    background-color: #00000026;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid rgb(42 218 203 / 25%);
+    background: rgba(255, 255, 255, 0.6);
+
+}
+
+.itens_cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease-in;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.item {
+    padding-top: 5px;
+    transition: all 0.4s ease-in;
+    font-family: 'Inter', sans-serif;
+}
+
+.item:hover {
+    transition: all 0.4s ease-in;
+    transform: scale(1.30);
+}
+
+.main_content {
+    width: 100%;
+    height: 100%;
+    padding-left: 20rem;
+    background: rgba(255, 255, 255, 0.6);
+    font-size: 1.3rem;
+}
+
+#card1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cards_container {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.card {
+    margin: 1rem;
+    width: 30%;
+    background: rgba(12, 16, 19, 0.9);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(42, 218, 203, 0.466);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 23px;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-top: 2rem;
+}
+
+.card:hover {
+
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: scale(1.02);
+}
+
+.card img {
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.card_inside_text {
+    display: flex;
+    width: 100%;
+    height: 626px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 40px;
+    color: #0f0c9e;
+}
+
+a:visited {
+    color: #0f0c9e;
+    text-decoration: none;
+}
+
+a {
+    transition: all 0.4s ease-in;
+}
+
+a:hover {
+    color: #0f0c9e;
+    text-decoration: none;
+    transition: all 0.4s ease-in;
+    font-size: 35px;
+}
+
+.botao2 {
+    border-radius: 10px;
+    border: rgb(107, 107, 107);
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    background: rgb(237, 183, 48);
+    border: 1px solid #2adacb75;
+    color: rgb(237, 183, 48) !important;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.botao2:hover {
+    background-color: rgb(237, 183, 48);
+    color: black;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: scale(1.05);
+}
+
+.tamanho{
+    font-size: 1.5rem;
+}

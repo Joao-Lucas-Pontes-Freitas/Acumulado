@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Trabalho_Divide_And_Conquer_C___Copia",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Trabalho_Divide_And_Conquer_C___Copia::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Trabalho_Divide_And_Conquer_C___Copia-Debug-01479168252d0ad479a2.json",
+					"name" : "Trabalho_Divide_And_Conquer_C___Copia",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/UFU/Per\u00edodos/5\u00b0 Per\u00edodo/An\u00e1lise de Algoritmos/Trabalho Divide And Conquer C - Copia/cmake-build-debug",
+		"source" : "D:/UFU/Per\u00edodos/5\u00b0 Per\u00edodo/An\u00e1lise de Algoritmos/Trabalho Divide And Conquer C - Copia"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

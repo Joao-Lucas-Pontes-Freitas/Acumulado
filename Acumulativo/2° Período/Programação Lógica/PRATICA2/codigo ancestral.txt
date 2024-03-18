@@ -1,0 +1,26 @@
+
+pai(carlos,ana).
+pai(joaquim,carlos).
+pai(carlos,juliana).
+pai(rui,joaquim).
+pai(pedro,rui).
+pai(josé,pedro).
+
+avo(X,Z):-
+	pai(X,Y),pai(Y,Z).
+
+bisavo(X,Z):-
+    pai(X,Y),avo(Y,Z).
+
+tataravo(X,Z):-
+    pai(X,Y),bisavo(Y,Z).
+
+tataratataravo(X,Z):-
+    pai(X,Y),tataravo(Y,Z).
+
+ancestral(X,Y):-
+    pai(X,Y).
+ancestral(X,Y):-
+    pai(X,Z), ancestral(Z,Y).
+
+    

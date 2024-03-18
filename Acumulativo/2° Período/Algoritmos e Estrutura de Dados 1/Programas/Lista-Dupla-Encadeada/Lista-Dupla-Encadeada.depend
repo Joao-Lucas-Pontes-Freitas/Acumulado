@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1669937903 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\lista-dupla-encadeada\listaenc.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1669937903 d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\lista-dupla-encadeada\lista.h
+

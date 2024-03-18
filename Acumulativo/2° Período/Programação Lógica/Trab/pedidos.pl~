@@ -1,0 +1,4 @@
+:- dynamic pedido/7.
+
+pedido(enzo, '968', 'mane@ufu.br', p, tom, '19:00', asas).
+

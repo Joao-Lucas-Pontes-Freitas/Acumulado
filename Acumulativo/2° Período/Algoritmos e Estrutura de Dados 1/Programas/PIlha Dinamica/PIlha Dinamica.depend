@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1673923212 source:d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pilha dinamica\pilhaenc.c
+	<stdio.h>
+	<stdlib.h>
+	"Pilha.h"
+	<string.h>
+
+1673923212 d:\ufu\períodos\2° período\algoritmos e estrutura de dados 1\programas\pilha dinamica\pilha.h
+

@@ -1,0 +1,4 @@
+"D:\IDEs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/IDEs/CLion Nova/bin/ninja/win/x64/ninja.exe" -G Ninja -S "D:\UFU\Períodos\5° Período\Análise de Algoritmos\Trabalho Divide And Conquer C - Copia" -B "D:\UFU\Períodos\5° Período\Análise de Algoritmos\Trabalho Divide And Conquer C - Copia\cmake-build-debug"
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/UFU/Períodos/5° Período/Análise de Algoritmos/Trabalho Divide And Conquer C - Copia/cmake-build-debug
